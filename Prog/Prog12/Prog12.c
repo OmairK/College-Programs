@@ -1,5 +1,11 @@
 #include <stdio.h>
-
+void progname()
+{
+	printf("\n");
+	printf("DANIYAL ABBASI\n");
+	printf("17BCS069\n");
+	printf("CS SEM 3\n");
+}
 
 
 char num[][15]={"Empty","I","II","III","IV","V","VI","VII","VIII","IX", "X","XI","XII","thirteen","fourteen","fifteen","sixteen","seventeen","eighteen","nineteen"};
@@ -237,6 +243,8 @@ x:
 
 
 	printf("\n");
+	progname();
+	
 
 
 

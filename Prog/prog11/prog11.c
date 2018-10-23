@@ -1,4 +1,12 @@
 #include <stdio.h>
+#include <math.h>
+void progname()
+{
+	printf("\n");
+	printf("DANIYAL ABBASI\n");
+	printf("17BCS069\n");
+	printf("CS SEM 3\n");
+}
 
 int main(int argc, char const *argv[])
 {
@@ -195,5 +203,6 @@ int main(int argc, char const *argv[])
 
 	printf("Num1 Real - %f Img - %f\n", num_one_real,num_one_img );
 	printf("Num2 Real - %f Img - %f\n", num_two_real,num_two_img );
+	progname();
 	return 0;
 }
