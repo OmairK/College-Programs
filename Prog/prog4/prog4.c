@@ -1,4 +1,11 @@
 #include <stdio.h>
+void progname()
+{
+	printf("\n");
+	printf("DANIYAL ABBASI\n");
+	printf("17BCS069\n");
+	printf("CS SEM 3\n");
+}
 
 
 void printpat(int n)
@@ -76,6 +83,6 @@ int main()
 
 	printpat(n);
 
-	
+	progname();	
 	return 0;
 }

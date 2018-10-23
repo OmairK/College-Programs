@@ -1,4 +1,11 @@
 #include <stdio.h>
+void progname()
+{
+	printf("\n");
+	printf("DANIYAL ABBASI\n");
+	printf("17BCS069\n");
+	printf("CS SEM 3\n");
+}
 
 
 
@@ -151,6 +158,7 @@ x:
 			printf("%s ", num[ten] );
 		
 	}
+	progname();
 
 
 

@@ -3,6 +3,13 @@
 #include <string.h>
 #include <stdlib.h>
 
+void progname()
+{
+	printf("\n");
+	printf("DANIYAL ABBASI\n");
+	printf("17BCS069\n");
+	printf("CS SEM 3\n");
+}
 
 
 
@@ -42,7 +49,7 @@ int main(int argc, char const *argv[])
 
 	if (oct==999)
 	{
-		return ;	
+		return 0;	
 	}
 
 	checkoct(oct);		
@@ -116,6 +123,7 @@ int main(int argc, char const *argv[])
 	}
 
 	printf("Hex - %s\n", hex );
+	progname();
 
 
 
