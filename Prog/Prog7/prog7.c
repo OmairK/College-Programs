@@ -1,8 +1,15 @@
 #include <stdio.h>
+void progname()
+{
+	printf("\n");
+	printf("DANIYAL ABBASI\n");
+	printf("17BCS069\n");
+	printf("CS SEM 3\n");
+}
 
 int main(int argc, char const *argv[])
 {
-	char *a;
+	char *a=(char*)malloc(sizeof(char)*100);
 
 	printf("Enter a string - \n"); gets(a);
 
@@ -28,6 +35,6 @@ int main(int argc, char const *argv[])
 
 	printf("\n\n String - %s\n", a);
 
-
+	progname();
 	return 0;
 }

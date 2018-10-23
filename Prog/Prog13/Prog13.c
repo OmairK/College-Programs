@@ -1,5 +1,12 @@
 #include <stdio.h>
 #include <string.h>
+void progname()
+{
+	printf("\n");
+	printf("DANIYAL ABBASI\n");
+	printf("17BCS069\n");
+	printf("CS SEM 3\n");
+}
 int main(int argc, char const *argv[])
 {
 	
@@ -74,6 +81,7 @@ int main(int argc, char const *argv[])
 
 
 	}
+	progname();
 
 
 
