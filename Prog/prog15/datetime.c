@@ -6,27 +6,30 @@ int cday=30,cmon=10,cyea=2018,chou=26,cmin=29,csec=35;
 void check(char arr[30])
 {
 	int i,j=0,k=0,l=0,m=0,n=0,b=0,p;
-	for(i=0,p=3;arr[i]!="/";i++,p--)
+	for(i=0,p=3;arr[i]!='/';i++,p--)
+
 	{
+		
 		j=j+((int)arr[i]-48)*pow(10,p);
 	}
-	for(i=i+1,p=1;arr[i]!="/";i++,p--)
+	for(i=i+1,p=1;arr[i]!='/';i++,p--)
 	{
+		
 		k=k+((int)arr[i]-48)*pow(10,p);
 	}
-	for(i=i+1,p=1;arr[i]!=" ";i++,p--)
+	for(i=i+1,p=1;arr[i]!=' ';i++,p--)
 	{
 		l=l+((int)arr[i]-48)*pow(10,p);
 	}
-	for(i=i+1,p=1;arr[i]!=":";i++,p--)
+	for(i=i+1,p=1;arr[i]!=':';i++,p--)
 	{
 		m=m+((int)arr[i]-48)*pow(10,p);
 	}
-	for(i=i+1,p=1;arr[i]!=":";i++,p--)
+	for(i=i+1,p=1;arr[i]!=':';i++,p--)
 	{
 		n=n+((int)arr[i]-48)*pow(10,p);
 	}
-	for(i=i+1,p=1;arr[i]!="\0";i++,p--)
+	for(i=i+1,p=1;arr[i]!='\0';i++,p--)
 	{
 		b=b+((int)arr[i]-48)*pow(10,p);
 	}
@@ -67,7 +70,7 @@ void check(char arr[30])
 	}
 	cyea-=j;
 
-	printf("%d/%d/%d %d:%d:%d \n",cyea,cmon,cday,chou,cmin,csec);
+	printf("Years:%d Months:%d Days:%d Hours:%d Mins:%d Sec:%d \n",cyea,cmon,cday,chou,cmin,csec);
 
 
 
@@ -76,8 +79,8 @@ void check(char arr[30])
 int main()
 {
 	char arr[30];
-	printf("Enter date and time in the format DD/MM/YYYY HH:MM:SS\n");
-	scanf("%s",&arr);
+	printf("Enter date and time in the format YYYY/MM/DD HH:MM:SS\n");
+	gets(arr);
 	printf("%s\n",arr);
 	check(arr);
 	return 0;
